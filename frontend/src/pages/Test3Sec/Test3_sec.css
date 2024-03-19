@@ -1,0 +1,326 @@
+.AreaExam-of-mongodb {
+  width: 95%;
+  margin: 10rem auto;
+  display: grid;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card-exam-of-mongodb {
+  border: 1px solid var(--green);
+  border-radius: .5rem;
+  flex-grow: 1;
+  text-align: center;
+  padding: 1rem;
+  height: 20rem;
+}
+.hIncard h2 {
+  color: var(--white);
+  font-size: 1.9rem;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+.btnIncard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btnIncard a {
+  width: 90% ;
+  height: 4rem;
+  margin: 7rem auto 1rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+.ContanerOfFormExam {
+  margin: 10rem auto;
+  width: 95%;
+}
+.heading-of-exam-in-test {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading-of-exam-in-test h1 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  border: 1px solid var(--green);
+  border-radius: 1rem;
+  padding: 0.7rem 8rem;
+  color: var(--white);
+}
+.span-number-of-exam {
+  font-size: 1.7rem;
+  font-weight: 800;
+  border: 1px solid var(--green);
+  border-radius: 1rem;
+  padding: 0.7rem 2rem;
+  color: var(--white);
+}
+.form-exam {
+  width: 95%;
+  border: 1px solid var(--green);
+  margin: 3rem auto;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.one-question-get {
+  width: 95%;
+  margin: auto;
+}
+.h1-one-get-q {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+}
+.h1-one-get-q h1 {
+  font-size: 1.7rem;
+  color: var(--white);
+}
+.SpanNumberofqu {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--white);
+}
+.h1-one-get-a {
+  width: 100%;
+}
+.h1-one-get-a .one-answer-a {
+  width: 100%;
+  margin-bottom: 2rem;
+  border: 1px solid var(--white);
+  border-radius: 1rem;
+  padding-left: 2rem;
+}
+.h1-one-get-a .one-answer-a:hover {
+  background-color: var(--white);
+}
+.h1-one-get-a .one-answer-a input {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+.h1-one-get-a .one-answer-a label {
+  font-size: 1.7rem;
+  font-weight: 800;
+  display: inline-block;
+  width: 95%;
+  padding: 0.5rem;
+  color: var(--white);
+}
+.h1-one-get-a .one-answer-a:hover label {
+  color: var(--black);
+}
+.h1-one-get-a .one-answer-a input[type="Radio"]:checked + label {
+  color: #00e77f;
+}
+.divbttonsendr {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.divbttonsendr button {
+  margin: 0;
+}
+.divbttonsendr a{
+  margin: 0;
+}
+.divbttonsendr button {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.divbttonsendr .test-correction:hover {
+  background-color: var(--light-blu);
+  color: var(--white);
+}
+.divbttonsendr .back-btn:hover {
+  background-color: var(--light-red);
+  border: 1px solid var(--light-red);
+  box-shadow: 0 0 30px 5px var(--light-red);
+}
+.results-of-exam {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border: 1px solid var(--green);
+  border-radius:10px;
+  color: var(--white);
+  padding: 1rem;
+}
+.results-of-exam .number-of-wrongs {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.results-of-exam .number-of-wrongs h1 {
+  width: 50%;
+  font-size: 1.7rem;
+  border: 1px solid var(--green);
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+.all-question-and-answers {
+  width: 95%;
+  margin: auto;
+  padding: 2rem;
+}
+.all-question-and-answers .heading-of-answered {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.all-question-and-answers .wrongAnswer {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--light-red);
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  padding: 1rem 1rem 1rem 3rem;
+  margin: 1rem;
+}
+.all-question-and-answers .RightAnswer {
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  padding: 1rem 1rem 1rem 3rem;
+  margin: 1rem;
+}
+.all-question-and-answers .RightAnswer span {
+  color: var(--green);
+}
+.all-question-and-answers .selectRightAnswer {
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  padding: 1rem 1rem 1rem 3rem;
+  margin: 1rem;
+  color: var(--green);
+}
+.divbtns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.divbtns a {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+.divbtns .back-btn:hover {
+  background-color: var(--light-red);
+  border: 1px solid var(--light-red);
+  box-shadow: 0 0 30px 5px var(--light-red);
+}
+
+@media (max-width: 991px) {
+
+  .AreaExam-of-mongodb{
+    margin-top: 12rem;
+  }
+  .AreaExam-of-mongodb .card-exam-of-mongodb .hIncard h2{
+     font-size: 3rem;
+  }
+  .AreaExam-of-mongodb .card-exam-of-mongodb {
+     height: 25rem;
+  }
+  body .AreaExam-of-mongodb .card-exam-of-mongodb .btnIncard a{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+
+  .heading-of-exam-in-test {
+    display: block;
+    margin-top: 12rem;
+  }
+  .heading-of-exam-in-test h1 {
+    margin: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  body .h1-one-get-q {
+    padding: 0;
+    display: block;
+  }
+  body .h1-one-get-q h1 {
+    font-size: 2rem;
+  }
+  .heading-of-exam-in-test h2 {
+    margin: 3rem;
+    text-align: center;
+  }
+  .one-answer-a {
+    display: flex;
+    height: calc(fit-content+2rem);
+    align-items: center;
+    margin-top: 2rem;
+  }
+  body .h1-one-get-a .one-answer-a input{
+    margin-right: 2rem;
+
+  }
+  body .h1-one-get-a .one-answer-a label{
+    font-size: 3rem;
+    margin-right:1rem ;
+  
+
+  }
+  .divbttonsendr {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .divbttonsendr button,
+  .divbttonsendr a {
+    display: block;
+    margin-bottom: 4rem;
+    width: 90%;
+    margin: auto;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+
+
+  body .results-of-exam {
+    margin-top: 13rem;
+  }
+  .results-of-exam .number-of-wrongs {
+    display: block;
+    width: 100%;
+  }
+  .results-of-exam .number-of-wrongs h1 {
+    width: 95%;
+    max-width: auto;
+    padding: 1rem;
+  }
+  .results-of-exam .divbtns {
+    display: block;
+    width: 100%;
+  }
+  .results-of-exam .divbtns a {
+    display: block;
+    width: 95%;
+    margin: 3rem auto;
+  }
+
+  .card-exam-of-mongodb{
+    min-width:80%;
+    margin: auto;
+  }
+}
