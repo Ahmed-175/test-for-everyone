@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const authRoutes  = require('./routes/loginadm.routes.js')
 const getsubjectsRoutes = require('./routes/getsubjectsRoutes.routes.js')
 const addtestsRoutes = require('./routes/addtestsRoutes.routes.js')
-// const EtidRoutes = require('./routes/EtidRoutes.routes.js');
+
 
 
 app.use(cors()); 
@@ -18,7 +18,6 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/getsubjects', getsubjectsRoutes);
 app.use('/api/addtestssubjects', addtestsRoutes );
-// app.use('/api/etidtest' , EtidRoutes)
 
 const path = require('path');
 app.use(express.static(path.join(path.resolve(),"/frontend/dist")))

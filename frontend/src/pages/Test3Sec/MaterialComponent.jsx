@@ -11,7 +11,7 @@ const MaterialComponent = ({ materialIndex }) => {
   useEffect(() => {
     const getExamData = async () => {
       const AllExamInData = await axios.get(
-        `http://localhost:5000/api/getsubjects/${matiral[materialIndex]}`
+        `/api/getsubjects/${matiral[materialIndex]}`
       );
       setObject(AllExamInData.data);
     };

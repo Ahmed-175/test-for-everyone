@@ -56,7 +56,7 @@ const TestContainer = ({ materialIndex }) => {
     const getOfExam = async () => {
       try {
         const AllExamInData = await axios.get(
-          `http://localhost:5000/api/getsubjects/${matiral[materialIndex]}`
+          `/api/getsubjects/${matiral[materialIndex]}`
         );
         const exam = AllExamInData.data[id];
         setTest(exam);
